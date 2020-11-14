@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Best Friend Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <section>
+       <div>
+           <h1>Best Friend Application</h1>
+           <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="hello-minion" enctype="text/plain">
+           <p>
+               Hey there! I want to know of you'd like to be friends with me. 
+               If you're ready, enter a few details about yourself for me to get to know you! Looking forwrd to it! 😁
+           </p>
+           <h3>
+               Wanna start?
+           </h3>
+       </div>
+       <form action="mailto:sanskriti.amidesh@gmail.com?Subject=My Best Friend Application" method="POST">
+           <label for="name">What's your name?</label>
+           <input type="text" name="name" id="name" placeholder="Your Name">
+           <label for="name">What would be your most preferred nickname?</label>
+           <input type="text" name="nickname" id="nickname" placeholder="Your Crazy Nickname">
+           <label for="age">How old are you?</label>
+           <input type="number" name="age" id="age" placeholder="Your Age" min="14" max="18" >
+           <label for="superheor">Who is your favourite Superhero?</label>
+           <br>
+           <input type="checkbox" name="spiderman" id="spiderman">
+           <label for="spiderman">Spiderman</label>
+           <br>
+           <input type="checkbox" name="ironman" id="ironman">
+           <label for="ironman">Ironman</label>
+           <br>
+           <input type="checkbox" name="batman" id="batman">
+           <label for="batman">Batman</label>
+           <br>
+
+           <label for="why">Why do you wan to be my friend?</label>
+           <textarea name="why" id="why" cols="30" rows="3">I wanna be friends with you because ...</textarea>
+           <input type="submit" value="LET'S BE FRIENDS! 🤝🏻 ">
+
+       </form>
+   </section>
+</body>
+</html>
